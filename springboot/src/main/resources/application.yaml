@@ -1,0 +1,11 @@
+#端口
+server:
+  port: 8090
+
+spring:
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/vue?serverTime=UTC&useUnicode=true&charcterEncoding=utf-8&useSSl=flase
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: liupeng1314...
